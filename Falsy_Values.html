@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falsy Values</title>
+</head>
+<body>
+    <p>
+        Falsy Values
+    </p>
+    <script>
+        if("str"){
+            console.log("Falsy");
+        }
+        const productCart=5
+        if(productCart>2){
+            console.log("Cart has Products")  
+        }
+        console.log("text"/5); //nan(not a num)
+
+        let var1 =true ? "truthy" : "falsy"
+        console.log(var1);  //terinary opt
+
+        5 && console.log("Hello"); //truthy value
+        0 && console.log("Hello"); //falsy  
+        
+        let var3 = 5 && "sathish";
+        console.log(var3);
+    </script>
+    
+</body>
+</html>
